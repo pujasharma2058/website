@@ -1,11 +1,49 @@
-<!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>Pooja Sharma</title>
+	<meta charset="UTF-8">
+	<title>Pooja_Assignment</title>
+	<link rel="stylesheet" type="text/css" href="css/styleee.css">
 </head>
-<body bgcolor="skyblue">
-<h1 align="center"><b>Pooja Sharma</b></h1>
-<h3 align="center">My name is Pooja Sharma. My father name is Budheshwor Thakur. My mother name is Radha Sharma. My sisters name are Sarita, Sabita, Kabita Sharma. My brother name is Satendra and Satya Sharma. My Vinaju name is Umesh Sharma and Nj Subedi.</h3>
+<body style="background-color: limegreen;">
+     <script >
+     var images = ["poojaa.jpg",
+      "poojaa.jpg",
+     "poojaa.jpg"];
+      var i = 0;
+
+      function slides(){
+        slideimage.getElementById("slideimage").src = images[i];
+        if(i<(images.length-1) )
+        i ++;
+   else
+     i=0;
+             }
+
+      setInterval{slides, 2000}
+</script>
+
+	<div >
+		<header>
+			<div class="wrapper">
+				<div class="logo">
+				<a href="#"><b><i>Pooja Sharma</i></b></a>
+			</div>
+			<nav>
+				<a href="home.html">Home</a>
+				<a href="about.html">About</a>
+				<a href="Contact.html">Contact</a>
+				<a href="Speaking.html">Speaking</a>
+				<a href="Reference.html">Reference</a>
+			</nav>
+               <div align="center" class="slideshow">
+                    <img src="pooja.jpg" alt="pooja.jpg" id="slideimage">
+              
+
+		</div>
+		</header>
+     </div>
+
+
+
 </body>
 </html>
